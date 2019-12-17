@@ -15,7 +15,7 @@ public class Main extends JFrame {
     }
 
     private JLabel createText() {
-        text = new JLabel("Random text");
+        text = new JLabel("Changed text");
         Dimension size = text.getPreferredSize();
         text.setBounds(20, 20, size.width, size.height);
         add(text);
