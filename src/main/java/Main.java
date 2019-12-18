@@ -14,7 +14,7 @@ public class Main extends JFrame {
         setVisible(true);
     }
 
-    private JLabel createText() {
+    public JLabel createText() {
         text = new JLabel("Changed text");
         Dimension size = text.getPreferredSize();
         text.setBounds(20, 20, size.width, size.height);
